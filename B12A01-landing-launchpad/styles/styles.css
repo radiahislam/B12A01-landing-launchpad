@@ -87,6 +87,9 @@ main {
   padding: 40px;
   background-color: #f7f9fc;
   font-family: raleway, sans-serif;
+  max-width: 1140px;
+  margin: 0 auto;
+  gap: 10px;
 }
 
 main div {
@@ -123,4 +126,61 @@ img {
   width: 100%;
   max-width: 400px;
   border-radius: 48px;
+}
+
+/*productive user styles*/
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  position: absolute;
+  top: 900px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+  border-radius: 24px;
+ 
+
+
+}
+
+.stats {
+  background-color: #dbe2ff;
+  border-radius: 16px;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+.stats h3 {
+  font-weight: bold;
+  font-size: 38px;
+  margin-bottom: 30px;
+  color: #252432;
+}
+
+.stats .items {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.stats .item {
+  flex: 1;
+}
+
+.stats .item h4 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4c5ffc;
+  margin: 0 0 8px;
+}
+
+.stats .item p {
+  font-size: 20px;
+  color: #4E47FF;
+  opacity: 50%;
+  margin: 0;
 }
